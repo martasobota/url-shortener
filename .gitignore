@@ -1,1 +1,5 @@
-env_short_url
+/env_short_url
+
+# Django stuff:
+*.log
+local_settings.py
