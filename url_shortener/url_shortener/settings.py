@@ -88,6 +88,8 @@ except ImportError:
             'NAME': 'short_urls_db',                      
         }
     }
+    
+SITE_URL = "http://localhost:8000"
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
