@@ -1,3 +1,4 @@
+# Virtual env
 /env_short_url
 
 # Local settings for the project
@@ -5,3 +6,4 @@ settings_local.py
 
 # Django/Python files
 *.pyc
+/pycache
