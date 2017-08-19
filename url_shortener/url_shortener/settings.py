@@ -64,7 +64,12 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'app.apptemplates.load_setting',
             ],
+
+            'libraries': {
+            'index': 'app_url_shortener.templates',
+            }
         },
     },
 ]
