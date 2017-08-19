@@ -1,4 +1,4 @@
-from django.conf.urls import url, include
+from django.conf.urls import url
 from app_url_shortener.views import index, shorten_url
 
 urlpatterns = [
