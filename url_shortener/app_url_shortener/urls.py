@@ -1,12 +1,7 @@
-from django.conf.urls import url
- 
-# urlpatterns = patterns('app_url_shortener.views',
-#     url(r'^$', 'index', name='home'),
-#     url(r'^shorten/$', 'shorten_url', name='shortenurl'),
-#     )
+from django.conf.urls import url, include
+from app_url_shortener.views import index, shorten_url
 
 urlpatterns = [
-	# 'app_url_shortener.views',
-    url(r'^$', 'index', name='home'),
-    url(r'^shorten/$', 'shorten_url', name='shortenurl'),
+    url(r'^$', index, name='index'),
+    url(r'^shorten_url/$', shorten_url, name='shortenurl'),
 ]
