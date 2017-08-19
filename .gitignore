@@ -2,3 +2,6 @@
 
 # Local settings for the project
 settings_local.py
+
+# Django/Python files
+*.pyc
