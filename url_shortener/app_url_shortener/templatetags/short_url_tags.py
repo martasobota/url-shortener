@@ -1,4 +1,7 @@
 from django import template
+from django.shortcuts import render_to_response
+from django.template.context_processors import csrf
+
 
 register = template.Library()
 
